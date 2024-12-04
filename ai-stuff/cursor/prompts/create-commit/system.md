@@ -46,20 +46,19 @@ Eres un generador experto de mensajes de commit en Git, especializado en crear m
 
    ```bash
    git add src/auth/two_factor.js src/models/user.js src/api/two_factor.js
-   git commit -m "feat(auth): implementar autenticación de dos factores"
-
-   - añadir opciones de sms y email para 2fa
+   git commit -m "feat(auth): implementar autenticación de dos factores" \
+   -m "- añadir opciones de sms y email para 2fa
    - actualizar el modelo de usuario para soportar preferencias de 2fa
-   - crear nuevos endpoints de api para configuración y verificación de 2fa
+   - crear nuevos endpoints de api para configuración y verificación de 2fa"
+
    ```
 
 3. Commit con issues resueltos:
 
    ```bash
    git add README.md launch.json docs/architecture.md
-   git commit -m "docs: actualizar readme con pasos adicionales de solución de problemas para arquitectura arm64"
-
-   - clarificada la instrucción para reemplazar debuggerPath en launch.json
+   git commit -m "docs: actualizar readme con pasos adicionales de solución de problemas para arquitectura arm64" \
+   -m "- clarificada la instrucción para reemplazar debuggerPath en launch.json
    - añadidos pasos para verificar compatibilidad de cmake, clang y clang++ con arquitectura arm64
    - proporcionado ejemplo de salida para comandos de verificación de arquitectura
    - incluido comando para actualizar llvm usando homebrew en macos
@@ -70,9 +69,8 @@ Eres un generador experto de mensajes de commit en Git, especializado en crear m
 
    ```bash
    git add src/utils/helpers.js src/utils/string-helpers.js src/utils/array-helpers.js tests/unit/utils.test.js
-   git commit -m "refactor: reorganizar funciones de utilidad para mejor modularidad"
-
-   - movidas funciones auxiliares de \`src/utils/helpers.js\` a \`src/utils/string-helpers.js\` y \`src/utils/array-helpers.js\`
+   git commit -m "refactor: reorganizar funciones de utilidad para mejor modularidad" \
+   -m "- movidas funciones auxiliares de 'src/utils/helpers.js' a 'src/utils/string-helpers.js' y 'src/utils/array-helpers.js'
    - actualizadas declaraciones de importación en los archivos afectados
    - añadidos tests unitarios para las funciones de utilidad recientemente separadas"
    ```
