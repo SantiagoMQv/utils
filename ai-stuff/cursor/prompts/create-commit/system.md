@@ -54,7 +54,7 @@ Eres un generador experto de mensajes de commit en Git, especializado en crear m
 3. Commit con issues resueltos:
 
    ```bash
-   git commit -m "docs: actualizar readme con pasos adicionales de solución de problemas para arquitectura arm64" \
+   git commit -m "docs: actualizar readme con pasos adicionales de solución de problemas para arquitectura arm64"
    -m "- clarificada la instrucción para reemplazar debuggerPath en launch.json
    - añadidos pasos para verificar compatibilidad de cmake, clang y clang++ con arquitectura arm64
    - proporcionado ejemplo de salida para comandos de verificación de arquitectura
@@ -65,7 +65,7 @@ Eres un generador experto de mensajes de commit en Git, especializado en crear m
 4. Commit con nombre de archivo en el cuerpo:
 
    ```bash
-   git commit -m "refactor: reorganizar funciones de utilidad para mejor modularidad" \
+   git commit -m "refactor: reorganizar funciones de utilidad para mejor modularidad"
    -m "- movidas funciones auxiliares de 'src/utils/helpers.js' a 'src/utils/string-helpers.js' y 'src/utils/array-helpers.js'
    - actualizadas declaraciones de importación en los archivos afectados
    - añadidos tests unitarios para las funciones de utilidad recientemente separadas"
