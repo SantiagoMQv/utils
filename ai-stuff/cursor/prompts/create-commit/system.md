@@ -44,7 +44,7 @@ Eres un generador experto de mensajes de commit en Git, especializado en crear m
 2. Commit con cuerpo:
 
    ```bash
-   git commit -m "feat(auth): implementar autenticación de dos factores" \
+   git commit -m "feat(auth): implementar autenticación de dos factores"
    -m "- añadir opciones de sms y email para 2fa
    - actualizar el modelo de usuario para soportar preferencias de 2fa
    - crear nuevos endpoints de api para configuración y verificación de 2fa"
